@@ -1,9 +1,11 @@
 html {
   scroll-behavior: smooth;
 }
+
 html body{
      background-color: #f9f9f9;
 }
+
 section{
   margin-top: 87px; 
   background-color:#f9f9f9;
@@ -107,9 +109,12 @@ section{
  **********************************************************************/
 .section-1{
     background-image:url('../images/leaforg.jpg');
-    background-position:center;
-     background-size: cover;
+    background-image:url('../images/blur1.jpg');
+    background-image:url('../images/_index1flipped.jpg');
+    /*background-position:center;*/
+    background-size: cover;
     position: relative;
+    /*height: 750px;*/
     height: 750px;
 }
 .front_header {
@@ -119,15 +124,33 @@ section{
 }
 .front_header h1 {
     font-weight: 700;
-    font-size: 76px;
-    color: black;
-    font-family: 'Unica One', cursive; 
-   /* max-width: 50%; */
+    /*font-size: 76px;*/
+    /*color: black;*/
+    font-size: 85px;
+    color: white;
+    /*-webkit-text-stroke: 0.5px black;*/
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    /*font-family: 'Unica One', cursive; */
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
 }
 .front_header p{
   font-family: 'Oswald', sans-serif;
-  font-size: 32px; 
-  color: black; 
+  /*font-size: 32px;*/
+  /*color: black;*/
+  font-size: 40px;
+  color: white;
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000; 
 }
 
 /***********************************************************************
@@ -193,7 +216,7 @@ body > section > .section-3 {
 }
 
 .instruction_block{
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .instruction_block h1 {
