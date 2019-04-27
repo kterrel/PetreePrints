@@ -28,7 +28,7 @@
 
 .zone button {
   /*background-color: #245f45;*/
-  background-color: #023f05;
+  background-color: #063793;
   color: white;
   padding: 9px 20px;
   border: none;
@@ -39,7 +39,7 @@
 }
 
 .zone button:hover {
-  background-color: #4CAF50;
+  background-color: #3c98db;
 }
 
 
@@ -49,7 +49,7 @@
 }
 
 .active {
-  color: #06700c;
+  color: #063793;
 }
 
 .zone {
@@ -91,7 +91,7 @@ a {
 
 table.orderTable {
   font-family: Verdana, Geneva, sans-serif;
-  border: 2px solid #023F05;
+  border: 2px solid #063793;
   background-color: #FFFFFF;
   width: 100%;
   text-align: center;
@@ -108,17 +108,17 @@ table.orderTable tr:nth-child(even) {
   background: #E2E2E2;
 }
 table.orderTable thead {
-  background: #023F05;
-  background: -moz-linear-gradient(top, #035106 0%, #023F05 66%, #023A05 100%);
-  background: -webkit-linear-gradient(top, #035106 0%, #023F05 66%, #023A05 100%);
-  background: linear-gradient(to bottom, #035106 0%, #023F05 66%, #023A05 100%);
+  background: #063793;
+  background: -moz-linear-gradient(top, #0749c4 0%, #063793 66%, #03225b 100%);
+  background: -webkit-linear-gradient(top, #0749c4 0%, #063793 66%, #03225b 100%);
+  background: linear-gradient(to bottom, #0749c4 0%, #063793 66%, #03225b 100%);
 }
 table.orderTable thead th {
   font-size: 19px;
   font-weight: bold;
   color: #FFFFFF;
   text-align: center;
-  border-left: 2px solid #023F05;
+  border-left: 2px solid #063793;
 }
 table.orderTable thead th:first-child {
   border-left: none;
@@ -128,10 +128,10 @@ table.orderTable tfoot {
   font-size: 13px;
   font-weight: bold;
   color: #FFFFFF;
-  background: #023F05;
-  background: -moz-linear-gradient(top, #035106 0%, #023F05 66%, #023A05 100%);
-  background: -webkit-linear-gradient(top, #035106 0%, #023F05 66%, #023A05 100%);
-  background: linear-gradient(to bottom, #035106 0%, #023F05 66%, #023A05 100%);
+  background: #063793;
+  background: -moz-linear-gradient(top, #0749c4 0%, #063793 66%, #03225b 100%);
+  background: -webkit-linear-gradient(top, #0749c4 0%, #063793 66%, #03225b 100%);
+  background: linear-gradient(to bottom, #0749c4 0%, #063793 66%, #03225b 100%);
 }
 table.orderTable tfoot td {
   font-size: 13px;
@@ -142,7 +142,7 @@ table.orderTable tfoot .links {
 table.orderTable tfoot .links a{
   display: inline-block;
   background: #FFFFFF;
-  color: #023F05;
+  color: #063793;
   padding: 2px 8px;
   border-radius: 5px;
 }
@@ -172,7 +172,7 @@ table.orderTable tr.notfirst:hover {
 
 button {
 /*background-color: #347523;*/
-background-color: #023F05;
+background-color: #063793;
 color: white;
 padding: 2px 20px;
 border: none;
@@ -182,7 +182,7 @@ font-size: 20px;
 }
 
 button:hover {
-  background-color: #4d7850;
+  background-color: #3c98db;
 /*opacity: 0.8;*/
 }
 
@@ -191,7 +191,7 @@ button:hover {
 /*-----------------POPUP DROPDOWN-------------------*/
 /* Dropdown Button */
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #3c98db;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -308,8 +308,8 @@ button:hover {
   font-size: 14px;
   width: 406px;
   color: white;
-  /*background-color: #4CAF50;*/
-  background-color: #023F05;
+  /*background-color: #3c98db;*/
+  background-color: #063793;
   padding: 10px 26px;
   border-radius: 4px;
   border: 2px solid white;
@@ -318,7 +318,7 @@ button:hover {
 }
 
 .editorder-content button[class=confirm]:hover {
-  background-color: #4CAF50; /* Green */
+  background-color: #3c98db; /* Green */
   /*opacity: 0.6;*/
   color: white;
 }

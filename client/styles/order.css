@@ -1,6 +1,6 @@
 body {
   background-image: url("../images/order2.jpg");
-  background-image: url("../images/account3.jpg");
+  background-image: url("../images/_order1.jpg");
   /*background-size: auto;*/
   /*background-size: contain; */
   /*background-repeat: no-repeat;*/
@@ -63,8 +63,7 @@ input[type=image]:hover {
 
 
 .zone button {
-  /*background-color: #245f45;*/
-  background-color: #023f05;
+  background-color: #063793;
   color: white;
   padding: 9px 20px;
   border: none;
@@ -75,7 +74,7 @@ input[type=image]:hover {
 }
 
 .zone button:hover {
-  background-color: #4CAF50;
+  background-color: #3c98db;
 }
 
 /*
@@ -93,7 +92,7 @@ input[type=image]:hover {
 }
 
 .active {
-  color: #06700c;
+  color: #063793;
 }
 
 .zone {
@@ -145,7 +144,7 @@ a {
 }
 
 .cardhead {
-  background-color: #023f05;
+  background-color: #063793;
   color: white;
 }
 
@@ -302,48 +301,24 @@ padding: 14px 150px;
 
 #button1 {
   display: upload;
-  /*
-  border-radius: 12px;
-  color: #023f05;
-  font-size: 14px;
-  background-color: white;
-  */
   -webkit-filter: invert(1);
    filter: invert(1);
 }
 
 #button2 {
   display: size;
-  /*
-  border-radius: 12px;
-  color: #023f05;
-  font-size: 14px;
-  background-color: white;
-  */
   -webkit-filter: invert(1);
    filter: invert(1);
 }
 
 #button3 {
   display: mediums;
-  /*
-  border-radius: 12px;
-  color: #023f05;
-  font-size: 14px;
-  background-color: white;
-  */
   -webkit-filter: invert(1);
    filter: invert(1);
 }
 
 #button4 {
   display: paypal;
-  /*
-  border-radius: 12px;
-  color: #023f05;
-  font-size: 14px;
-  background-color: white;
-  */
   -webkit-filter: invert(1);
    filter: invert(1);
 }
@@ -356,12 +331,12 @@ padding: 14px 150px;
   border-radius: 12px;
   color: white;
   font-size: 14px;
-  background-color:  #4CAF50;
+  background-color:  #3c98db;
 }
 
 
 .previous {
-  background-color: #023f05;
+  background-color: #063793;
   color: white;
   font-size: 20px;
   padding: 8px 16px;
@@ -373,14 +348,14 @@ padding: 14px 150px;
 .previous:hover{
   color: white;
   text-decoration: none;
-  background-color: #06700c;
+  background-color: #3c98db;
 }
 
 .next {
   right: 0;
   bottom: 0;
   position: absolute;
-  background-color: #023f05;
+  background-color: #063793;
   color: white;
   font-size: 20px;
   padding: 8px 16px;
@@ -389,7 +364,7 @@ padding: 14px 150px;
 .next:hover{
   color: white;
   text-decoration: none;
-  background-color: #06700c;
+  background-color: #3c98db;
 }
 
 .round {
@@ -398,7 +373,6 @@ padding: 14px 150px;
 
 
 .price {
-  /*background-color: #023f05;*/
   color: black;
   font-size: 16px;
   padding: 0px 16px;
@@ -408,7 +382,6 @@ padding: 14px 150px;
 }
 
 .mediumprice {
-  /*background-color: #023f05;*/
   color: black;
   font-size: 14px;
   padding: 8px 16px;
