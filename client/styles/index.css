@@ -15,10 +15,11 @@ section{
     text-align: center;
 }
 
-/***********************************************************************
- *  Nav Bar
- **********************************************************************/
-
+/*
+**************************************************
+  Nav Bar
+**************************************************
+*/
 .zone {
     font-size:2em;
     border-radius:4px;
@@ -83,8 +84,8 @@ section{
 }
 
 .zone button {
-  /*background-color: #347523;*/
-  background-color: #023f05;
+  /*background-color: #023f05;*/
+  background-color: #063793;
   color: white;
   padding: 9px 20px;
   border: none;
@@ -95,18 +96,23 @@ section{
 }
 
 .zone button:hover {
-  background-color: #4CAF50;
+  /*background-color: #4CAF50;*/
+  background-color: #3c98db;
 }
 #searchBar {
   margin: 15px 10px;
 }
+/*
+**************************************************
+  Nav Bar End
+**************************************************
+*/
 
-/***********************************************************************
-      Nav Bar - end 
- **********************************************************************/
-/***********************************************************************
- *  Front Page Block
- **********************************************************************/
+/*
+**************************************************
+  Front Page Block
+**************************************************
+*/
 .section-1{
     background-image:url('../images/leaforg.jpg');
     background-image:url('../images/blur1.jpg');
@@ -115,7 +121,7 @@ section{
     background-size: cover;
     position: relative;
     /*height: 750px;*/
-    height: 750px;
+    height: 800px;
 }
 .front_header {
   position: absolute;
@@ -128,13 +134,14 @@ section{
     /*color: black;*/
     font-size: 85px;
     color: white;
-    /*-webkit-text-stroke: 0.5px black;*/
     text-shadow:
        3px 3px 0 #000,
      -1px -1px 0 #000,  
       1px -1px 0 #000,
       -1px 1px 0 #000,
        1px 1px 0 #000;
+
+    
     /*font-family: 'Unica One', cursive; */
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
@@ -144,18 +151,23 @@ section{
   /*font-size: 32px;*/
   /*color: black;*/
   font-size: 40px;
+  
   color: white;
   text-shadow:
        3px 3px 0 #000,
      -1px -1px 0 #000,  
       1px -1px 0 #000,
       -1px 1px 0 #000,
-       1px 1px 0 #000; 
+       1px 1px 0 #000;
+  
 }
 
-/***********************************************************************
- *  Front Page Block - end 
- **********************************************************************/
+/*
+**************************************************
+  Front Page Block End
+**************************************************
+*/
+
   /***********************************************************************
 *  Photo Display Block 
 **********************************************************************/ 
@@ -164,7 +176,7 @@ section{
     font-family: 'Clarkson',Helvetica,sans-serif; 
      font-weight: 550;
     line-height: 1.1em;
-    font-size: 35px;
+    font-size: 37px;
     color: #222;
 }
 
@@ -172,15 +184,15 @@ section{
     font-family: 'Clarkson',Helvetica,sans-serif; 
      font-weight: 550;
     line-height: 1.1em;
-    font-size: 35px;
+    font-size: 37px;
     color: #222;
 }
 
 .section-5 p{
-    font-size: 12px;
+    font-size: 14px;
 }
 .section-4 p{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .section-5 .two-up__left{
@@ -202,12 +214,14 @@ body > section > .section-3 {
     background-position:center;
     position: relative;
      background-size: cover;
-     background-color: : #f9f9f9 !important; 
+     background-image:url('../images/_123block1.jpg');
+     /*background-color: : #f9f9f9 !important;*/ 
 }
 
 .instruction_block .col-sm{
     border-style: groove;
-    border-color: #68a949;
+    background-color: #f9f9f9;
+    border-color: #063793;
     height: 275px;
     width: 100px;
     margin: 15px;
@@ -220,12 +234,20 @@ body > section > .section-3 {
 }
 
 .instruction_block h1 {
-/*font-family: 'Bangers', cursive; */
 font-size: 48px; 
 letter-spacing: 5px; 
  font-family: 'Staatliches', cursive;
-color: black; 
-margin-bottom: 15px; 
+/*color: black; */
+margin-bottom: 15px;
+
+color: white;
+text-shadow:
+  3px 3px 0 #000,
+  -1px -1px 0 #000,  
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+
 }
 
 .instruction_text{
@@ -240,8 +262,8 @@ margin-bottom: 15px;
    #circle {
     width: 70px;
     height: 70px;
-    /*background: #3f6b2d;*/
-    background: #023f05;
+    /*background: #023f05;*/
+    background: #063793;
     border-radius: 50%;
     position: absolute;
     /* margin: 0 auto; */
@@ -277,14 +299,14 @@ margin-bottom: 15px;
     width: 170px;
     font-size: 27px;
     font-family: 'Oswald', sans-serif;
-    letter-spacing: 2px;
-    background-color: black;
-    /*background-color: #023f05;*/
+    letter-spacing: 3px;
+    color: black;
+    background-color: white;
     border: none;
 }
 .instruction_block .btn-primary:hover, .instruction_block .btn-primary:focus, .instruction_block .btn-primary:active, .instruction_block .btn-primary.active, .instruction_block .open>.dropdown-toggle.btn-primary {
-    /*background-color: #3f6b2d;*/
-    background-color: #023f05;
+    /*background-color: #023f05;*/
+    background-color: #063793;
     color: white;
      /*set the color you want here*/
 }
@@ -357,22 +379,87 @@ margin-bottom: 15px;
 
 .section-7{
     position: relative;
-    height: 800px;
-    background-color: white; 
-    background-image:url('../images/whiteback2.jpg');
-    background-position:center;
+    height: 700px;
+    /*background-position:center;*/
     background-size: cover; 
 }
 
 .gallery_block h2{
   position: absolute;
-  top: 4%; 
+  top: 4%;
   font-size: 60px;
   font-family: 'Staatliches', cursive;
   letter-spacing: 4px;
   color: black;
-  width: 100%; 
-  opacity: 1; 
+  /*width: 100%; */
+  width: 97%;
+  opacity: 1;
+  color: black;
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  /*border: 10px solid black;*/
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  width:60%;
+  border: 20px solid black;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+  color: white;
+  background-color: black;
+}
+
+/* Position next & prev to right & left */
+.next {
+  right: 150px;
+}
+.prev {
+  left: 150px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: grey;
+  color: white;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
 /***********************************************************************
@@ -457,12 +544,6 @@ button:hover {
   /*opacity: 0.8;*/
 }
 
-/* Extra styles for the cancel button */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
 
 /* Center the image and position the close button */
 .imgcontainer {
@@ -529,7 +610,8 @@ span.psw {
   font-size: 14px;
   width: 400px;
   color: white;
-  background-color: #023f05;
+  /*background-color: #023f05;*/
+  background-color: #063793;
   padding: 10px 26px;
   border-radius: 4px;
   border: 2px solid white;
@@ -538,8 +620,8 @@ span.psw {
 }
 
 .login-content button[class=log]:hover {
-  background-color: #4CAF50; /* Green */
-  /*opacity: 0.6;*/
+  /*background-color: #4CAF50;*/
+  background-color: #3c98db;
   color: white;
 }
 
@@ -597,7 +679,8 @@ span.psw {
   font-size: 14px;
   width: 406px;
   color: white;
-  background-color: #023f05;
+  /*background-color: #023f05;*/
+  background-color: #063793;
   padding: 10px 26px;
   border-radius: 4px;
   border: 2px solid white;
@@ -606,8 +689,8 @@ span.psw {
 }
 
 .signup-content button[class=start]:hover {
-  background-color: #4CAF50; /* Green */
-  /*opacity: 0.6;*/
+  /*background-color: #4CAF50;*/
+  background-color: #3c98db;
   color: white;
 }
 
@@ -647,13 +730,10 @@ span.psw {
   to {transform: scale(1)}
 }
 
-/* Change styles for span and cancel button on extra small screens */
+/* Change styles for span on extra small screens */
 @media screen and (max-width: 300px) {
   span.psw {
      display: block;
      float: none;
-  }
-  .cancelbtn {
-     width: 100%;
   }
 }
