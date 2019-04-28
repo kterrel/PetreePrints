@@ -1,8 +1,5 @@
 body {
   background-image: url("../images/_order.jpg");
-  /*background-size: auto;*/
-  /*background-size: contain; */
-  /*background-repeat: no-repeat;*/
   background-size: cover;
   /*background-position: center;*/
 }
