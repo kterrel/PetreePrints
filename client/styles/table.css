@@ -2,7 +2,6 @@
     height: 800px;
 }
 
-
 .tableWrapper {
   max-height: 400px;
   overflow: auto;
@@ -68,6 +67,42 @@ table.orderTable tfoot .links a{
 }
 
 table.orderTable tr.notfirst:hover {
+  cursor: pointer;
   background-color: #a8a8a8;
 }
+
+
+/*-- ADDITIONAL FEATURES ADMIN & ACCOUNT SHARE --*/
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
 

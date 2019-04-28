@@ -4,9 +4,6 @@ body {
   /*background-position: center;*/
 }
 
-.section-2{
-    height: 800px;
-}
 
 .ordercard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -51,7 +48,7 @@ body {
 .orderinfo h3 a{
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
-    color: green; 
+    color: #063793; 
 }
 
 .orderinfo p {
@@ -107,37 +104,3 @@ input[type=text], input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-
-
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
-.container {
-  padding: 16px;
-}
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-}
-
-
-
-

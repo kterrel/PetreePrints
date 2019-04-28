@@ -16,22 +16,12 @@ section{
   background-color: : #f9f9f9;
 }
 
-.module{
-    padding:150px 20px 150px 20px;
-    text-align: center;
-}
-
 .section-2{
     height: 800px;
 }
- .verif_text{
-    position: absolute;
-    top: 30%;
- margin-left: 50px; 
 
- }
 
- .verif_text h2{
+.section-2 h2{
   font-size: 60px;
   font-family: 'Staatliches', cursive;
   letter-spacing: 3px;
@@ -39,16 +29,16 @@ section{
   opacity: 1; 
 }
 
-.verif_text p{
+.section-2 p{
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 28px;
     color: white;
     line-height: 1.8; 
 }
-.verif_text a{
+.section-2 a{
   color: #063793; 
 }
 
- .verif_text a:hover{
+.section-2 a:hover{
   color: white; 
 }

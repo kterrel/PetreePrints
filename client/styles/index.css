@@ -215,7 +215,6 @@ text-shadow:
     /*background-color: #023f05;*/
     background-color: #063793;
     color: white;
-     /*set the color you want here*/
 }
 
 /***********************************************************************
@@ -445,10 +444,6 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
-}
-
-button:hover {
-  /*opacity: 0.8;*/
 }
 
 
