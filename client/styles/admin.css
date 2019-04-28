@@ -10,7 +10,6 @@ body {
   max-width: 500px;
   margin: auto;
   text-align: center;
-  /*padding: 10px 20px;*/
 }
 
 .cardhead {
@@ -21,13 +20,10 @@ body {
 }
 
 .orderinfo h1 {
-    /*font-weight: 700;*/
     padding: 10px 20px;
     font-size: 32px;
     color: white;
     font-family: 'Oswald', sans-serif;
-    /*font-family: 'Unica One', cursive;*/ 
-   /* max-width: 50%; */
 }
 
 

@@ -1,20 +1,12 @@
 body {
   background-image: url("../images/_order.jpg");
-  /*background-size: auto;*/
-  /*background-size: contain; */
-  /*background-repeat: no-repeat;*/
   background-size: cover;
-  /*background-position: center;*/
 }
 
 .userorders h2 {
-    /*font-weight: 700;*/
-    /*padding: 10px 20px;*/ 
     color: white;
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
-    /*font-family: 'Unica One', cursive;*/ 
-   /* max-width: 50%; */
 }
 
 .usercard {
@@ -22,7 +14,6 @@ body {
   max-width: 500px;
   margin: auto;
   text-align: center;
-  /*padding: 10px 20px;*/
 }
 
 .cardhead {
@@ -34,13 +25,10 @@ body {
 }
 
 .userinfo h1 {
-    /*font-weight: 700;*/
     padding: 10px 20px;
     font-size: 60px;
     color: white;
     font-family: 'Oswald', sans-serif;
-    /*font-family: 'Unica One', cursive;*/ 
-   /* max-width: 50%; */
 }
 
 
