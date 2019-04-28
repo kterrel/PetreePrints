@@ -4,7 +4,6 @@
   <!--favicon-->
   <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
 
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Staatliches" rel="stylesheet">
   <link rel="stylesheet" href="./styles/index.css">
@@ -41,29 +40,18 @@
   </nav>
   <!-- Nav Bar End-->
 
-  <section id= "content">
-<!--
-**************************************************
-Front Page Block
-**************************************************-->
+<section id= "content">
 
+<!-- Front Page Block -->
 <div class="module1 section-1">
   <div class= "front_header">
     <h1> PETREE PRINTS </h1>
     <p> Life is full of stories. Tell yours. </p>
   </div>
 </div>
-<!--
-**************************************************
-Front Page Block End
-**************************************************-->
+<!-- Front Page Block End -->
 
-<!--
-**************************************************
-Photo Display Block 
-**************************************************-->
-
-<!-- photo divs1 --> 
+<!-- Photo Display Block -->
 <div class="module1 section-4">
   <div id="service">
     <div class="two-up two-up--left-primary" data-component-name="two-up" data-component-id="6">
@@ -83,10 +71,8 @@ Photo Display Block
           </div>
         </div>
       </div>
-
       <div class="two-up__right ">
         <link rel="stylesheet" href="https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9781/assets/styles/components/feature-text.css?1a5cd4f2f5d000528ecb6235546bcce6">
-
         <div class="feature-text" data-component-id="5" data-aos="fade-up" data-aos-duration="2000">
           <div class ="head-section4" data-aos-duration="2000" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <h2>Affordable, Quality Prints</h2>
@@ -99,13 +85,6 @@ Photo Display Block
 </div>
 
 
-
-
-
-
-
-
-<!-- photo divs2 --> 
 <div class ="module section-5">
   <div id="diy-block" data-scrolled-into-view="true" data-aos="fade-up" data-aos-duration="2000">
     <link rel="stylesheet" href="https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9781/assets/styles/components/two-up.css?1a5cd4f2f5d000528ecb6235546bcce6">
@@ -118,8 +97,6 @@ Photo Display Block
           </div>
           <p>Your photos deserve to look their best, free from any constraints. We provide the highest-quality of photo printing with 100% customizable sizing and styling, to brighten your world with superior portraits that will stand the test of time.</p>
         </div>
-
-
       </div>
       <div class="two-up__right two-up__right--has-margin-desktop">
         <link rel="stylesheet" href="https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9781/assets/styles/components/images.css?1a5cd4f2f5d000528ecb6235546bcce6">
@@ -134,17 +111,9 @@ Photo Display Block
     </div>
   </div>
 </div>
+<!-- Photo Display Block End -->
 
-<!--
-**************************************************
-Photo Display Block End
-**************************************************-->
-
-<!--
-**************************************************
-123 Block
-**************************************************-->
-
+<!--123 Block -->
 <div class="module section-3" data-aos="fade-up" data-aos-duration="2000">
   <div class="instruction_block"> 
     <center>
@@ -186,17 +155,9 @@ Photo Display Block End
    <br>
  </div>
 </div>
+<!-- 123 Block End -->
 
-<!--
-**************************************************
-123 Block End
-**************************************************-->
-
-<!--
-**************************************************
-About Us Block 
-**************************************************-->
-
+<!-- About Us Block -->
 <div class="module section-2">
   <div id="about">
    <div class = "about_me_block">
@@ -210,58 +171,33 @@ About Us Block
   </div>
 </div>   
 </div>
+<!-- About Us End -->
 
-<!--
-**************************************************
-About Us End
-**************************************************-->
-<!--
-**************************************************
-Gallery Block
-**************************************************-->
-
+<!--Gallery Block -->
 <div class="module section-7 gallery_block">
-
   <center><h2>Gallery</h2></center>
   <div class="slideshow-container">
-
-    <!-- Full-width images with number and caption text -->
     <center>
       <div class="mySlides fade">
         <img src="images/about.jpg">
       </div>
-
       <div class="mySlides fade">
         <img src="images/landscape.jpg">
       </div>
-
       <div class="mySlides fade">
         <img src="images/family.jpg">
       </div>
-
       <div class="mySlides fade">
         <img src="images/abstract.jpg">
       </div>
     </center>
-
     <button class="prev gall" onclick="plusSlides(-1)">&#10094;</button>
     <button class="next gall" onclick="plusSlides(1)">&#10095;</button>
-
   </div>
-
 </div>
+<!-- Gallery Block End -->
 
-
-<!--
-**************************************************
-Gallery Block End 
-**************************************************-->
-
-<!--
-**************************************************
-Contact Block
-**************************************************-->
-
+<!-- Contact Block -->
 <div id="contact">
   <div class="module section-6">
    <div class= "contact_block"> 
@@ -281,27 +217,15 @@ Contact Block
  </div>
 </div>
 </div>
-
-<!--
-**************************************************
-Contact Block End
-**************************************************-->
-
+<!-- Contact Block End -->
 </section>
-
-
-
-
 
 
 <div class="container">
   <div id="id01" class="login" ng-controller="UsersController">
     <div class = "login-content">
       <form class="modal-content animate">
-
         <span onclick="document.getElementById('id01').style.display='none'" class="closee" title="Close Modal">&times;</span>
-
-
         <div class="container">
           <center>
             <label for="head"><b>Login</b></label>
@@ -320,25 +244,18 @@ Contact Block End
 
   <div id="id02" class="signup" ng-controller="UsersController">
     <div class="signup-content">
-
       <form class="modal-content animate">
         <span onclick="document.getElementById('id02').style.display='none'" class="closee" title="Close Modal">&times;</span>
-
         <!--User login information-->
         <div novalidate class="container simple-form">
           <center><label for="head"><b>Sign Up</b></label>
             <br>
-
             <input type="text" ng-model="newUser.first"placeholder="First Name*" name="firstName" required>
-
             <input type="text" ng-model="newUser.last"placeholder="Last Name*" name="lastName" required>
             <br>
-
             <input type="text" ng-model="newUser.email" placeholder="E-mail*" name="email" required>
             <br>
-
             <input type="password" ng-model="newUser.password" placeholder="Password*" name="psw" id="psw" required>
-
             <input type="password" placeholder="Confirm Password*" name="pswconfirmation" id="pswconfirmation" onchange="confirmPassword()" required>
             <script>
               function confirmPassword() {
@@ -351,20 +268,15 @@ Contact Block End
               }
             </script>
             <br>
-
             <br>
             <input type="text" ng-model="newUser.address.street" placeholder="Street Address" name="address">
             <br>
-
             <input type="text" ng-model="newUser.address.city" placeholder="City" name="city">
-
             <input type="text" ng-model="newUser.address.state" placeholder="State" name="state">
-
             <input type="text" ng-model="newUser.address.zip" placeholder="Zip" name="zip">
             <br><br>
             <button class="start" ng-click="addUser()">Let's Get Started!</button>
           </div>
-
         </center>
       </form>
     </div>
@@ -376,7 +288,6 @@ Contact Block End
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <!-- Speeds up & secures website?-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
 <script src="https://code.angularjs.org/1.4.3/angular.js"></script>
 <script src="js/app.js"></script>
 <script src="js/factories/listingFactory.js"></script>

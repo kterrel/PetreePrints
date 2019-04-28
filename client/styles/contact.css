@@ -67,8 +67,8 @@ section{
 .contact_us_block{
   height: 350px; 
   width: 900px; 
-  background-color: white; 
-  opacity: 0.85; 
+  background-color: white;
+  opacity: 0.95;
   position: absolute;
   margin: auto; 
   right:0;

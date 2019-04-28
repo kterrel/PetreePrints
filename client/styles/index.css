@@ -21,8 +21,6 @@ section{
 **************************************************
 */
 .section-1{
-    background-image:url('../images/leaforg.jpg');
-    background-image:url('../images/blur1.jpg');
     background-image:url('../images/_index1flipped.jpg');
     /*background-position:center;*/
     background-size: cover;

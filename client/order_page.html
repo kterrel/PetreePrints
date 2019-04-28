@@ -17,11 +17,7 @@
 <!-- Navigation Bar -->
     <nav class="zone" ng-controller="UsersController">
       <ul class = "background"></ul>
-
         <ul class="main-nav">
-            <!--
-            <img id="logo" src="images/logo.png"/>
-        -->
             <li><a class=active href="">Order</a></li>
             <li><a href="/account_page.html">Account</a></li>
             <li><a href="/contact.html">Contact</a></li>
@@ -43,15 +39,11 @@
                 <br>
                 <center>
                     <input type="image" src="/images/upload.png" width=40px class="btTxt submit" id="button1" />
-
                     . . . . . . . . . . . . . . . . .
-
                     <input type="image" src="/images/crop.png" width=40px class="btTxt submit" id="button2" />
                     . . . . . . . . . . . . . . . . .
-
                     <input type="image" src="/images/canvas.png" width=40px class="btTxt submit" id="button3" />
                     . . . . . . . . . . . . . . . . .
-
                     <input type="image" src="/images/review.svg" width=40px class="btTxt submit" id="button4" ng-click=reviewOrder(newOrder)>
                 </center>
                 <br>
@@ -68,9 +60,7 @@
                 </center>
             </form>
             <a href="#" id="showsize" class="next round"> &raquo;</a>
-
         </div>
-
         <div id="size">
             <p class="price">Total: ${{price}}<br>Size: ${{sizePrice}}</p>
             <h2>Choose Size</h2>
@@ -255,7 +245,6 @@
   else{}
     }
 </script>
-
 
 <script src="js/order_steps.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
