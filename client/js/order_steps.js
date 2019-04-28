@@ -1,0 +1,71 @@
+/*jquery to controll order step viewing */ 
+$('#button1').click(function()
+{
+    $('#upload').show();
+    $('#size').hide();
+    $('#mediums').hide();
+    $('#paypal').hide();
+});
+$('#button2').click(function()
+{
+    $('#upload').hide();
+    $('#size').show();
+    $('#mediums').hide();
+    $('#paypal').hide();
+});
+$('#button3').click(function()
+{
+    $('#upload').hide();
+    $('#size').hide();
+    $('#mediums').show();
+    $('#paypal').hide();
+});
+$('#button4').click(function()
+{
+    $('#upload').hide();
+    $('#size').hide();
+    $('#mediums').hide();
+    $('#paypal').show();
+});
+$('#backupload').click(function()
+{
+    $('#upload').show();
+    $('#size').hide();
+    $('#mediums').hide();
+    $('#paypal').hide();
+});
+$('#showsize').click(function()
+{
+    $('#upload').hide();
+    $('#size').show();
+    $('#mediums').hide();
+    $('#paypal').hide();
+});
+$('#backsize').click(function()
+{
+    $('#upload').hide();
+    $('#size').show();
+    $('#mediums').hide();
+    $('#paypal').hide();
+});
+$('#showmedium').click(function()
+{
+    $('#upload').hide();
+    $('#size').hide();
+    $('#mediums').show();
+    $('#paypal').hide();
+});
+$('#backmedium').click(function()
+{
+    $('#upload').hide();
+    $('#size').hide();
+    $('#mediums').show();
+    $('#paypal').hide();
+});
+$('#showreview').click(function()
+{
+    $('#upload').hide();
+    $('#size').hide();
+    $('#mediums').hide();
+    $('#paypal').show();
+});

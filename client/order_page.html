@@ -2,12 +2,15 @@
 <html>
 <head>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Staatliches" rel="stylesheet"> 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--JQuery Script-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="styles/order.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
     <title>Order</title>
 </head>
 <body ng-app="printsApp">
@@ -39,25 +42,16 @@
         <div class="cardhead">
                 <br>
                 <center>
-                    <!--
-                    <input type="button" id="but" value="1">
-                -->
                     <input type="image" src="/images/upload.png" width=40px class="btTxt submit" id="button1" />
-                    <!--
-                    _____________
-                    -->
+
                     . . . . . . . . . . . . . . . . .
-                    <!--<input type="button" id="button2" value="2">-->
+
                     <input type="image" src="/images/crop.png" width=40px class="btTxt submit" id="button2" />
                     . . . . . . . . . . . . . . . . .
-                    <!--
-                    <input type="button" id="button3" value="3">
-                -->
+
                     <input type="image" src="/images/canvas.png" width=40px class="btTxt submit" id="button3" />
                     . . . . . . . . . . . . . . . . .
-                    <!--
-                    <input type="button" id="button4" value="Review" ng-click=reviewOrder(newOrder)>
-                -->
+
                     <input type="image" src="/images/review.svg" width=40px class="btTxt submit" id="button4" ng-click=reviewOrder(newOrder)>
                 </center>
                 <br>
@@ -74,10 +68,7 @@
                 </center>
             </form>
             <a href="#" id="showsize" class="next round"> &raquo;</a>
-            <!--
-            <a href="#" class="previous round">&#8249;</a>
-            <a href="#" id="showsize" class="next round">&#8250;</a>
-            -->
+
         </div>
 
         <div id="size">
@@ -228,32 +219,6 @@
                     <!-- Display the payment button. -->
                     <input type="image" name="submit" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" alt="PayPal - The safer, easier way to pay online" ng-click="addOrder()">
                 </form>
-                <!--
-                 <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="VEMBP3LD3LNEC">
-                    <center>
-                    <table>
-                        
-                        <tr><td><input type="hidden" name="on0" value="Your Order">Your Order</td></tr>
-
-                        <tr><td>
-                            <select name="os0">
-                                
-                            <option value="{{detailedInfo.size}}  {{detailedInfo.medium}}">{{detailedInfo.size}}  {{detailedInfo.medium}} ${{detailedInfo.totalPrice}} USD</option>
-                       
-                        <option value="Option 1">Option 1 $0.23 USD</option>
-                        <option value="Option 2">Option 2 $0.02 USD</option>
-                        <option value="Option 3">Option 3 $0.03 USD</option>
-                        </select> 
-                    </td></tr>
-                    </table>
-                </center>
-                    <input type="hidden" name="currency_code" value="USD">
-                    <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                    <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>
-            -->
             <br>
             </footer>
             <a href="#" id="backmedium" class="previous round">&laquo; </a>
@@ -287,88 +252,12 @@
           };
       }
   }
-  else
-  {
-            // Not supported
-        }
+  else{}
     }
 </script>
 
-<!--Button Scripts-->
-<script>
-    $('#button1').click(function()
-    {
-        $('#upload').show();
-        $('#size').hide();
-        $('#mediums').hide();
-        $('#paypal').hide();
-    });
-    $('#button2').click(function()
-    {
-        $('#upload').hide();
-        $('#size').show();
-        $('#mediums').hide();
-        $('#paypal').hide();
-    });
-    $('#button3').click(function()
-    {
-        $('#upload').hide();
-        $('#size').hide();
-        $('#mediums').show();
-        $('#paypal').hide();
-    });
-    $('#button4').click(function()
-    {
-        $('#upload').hide();
-        $('#size').hide();
-        $('#mediums').hide();
-        $('#paypal').show();
-    });
-    $('#backupload').click(function()
-    {
-        $('#upload').show();
-        $('#size').hide();
-        $('#mediums').hide();
-        $('#paypal').hide();
-    });
-    $('#showsize').click(function()
-    {
-        $('#upload').hide();
-        $('#size').show();
-        $('#mediums').hide();
-        $('#paypal').hide();
-    });
-    $('#backsize').click(function()
-    {
-        $('#upload').hide();
-        $('#size').show();
-        $('#mediums').hide();
-        $('#paypal').hide();
-    });
-    $('#showmedium').click(function()
-    {
-        $('#upload').hide();
-        $('#size').hide();
-        $('#mediums').show();
-        $('#paypal').hide();
-    });
-    $('#backmedium').click(function()
-    {
-        $('#upload').hide();
-        $('#size').hide();
-        $('#mediums').show();
-        $('#paypal').hide();
-    });
-    $('#showreview').click(function()
-    {
-        $('#upload').hide();
-        $('#size').hide();
-        $('#mediums').hide();
-        $('#paypal').show();
-    });
-</script>
 
-
+<script src="js/order_steps.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 <script src="https://code.angularjs.org/1.4.3/angular.js"></script>
 <script src="js/app.js"></script>
