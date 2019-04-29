@@ -53,6 +53,17 @@ describe('User Schema Unit Tests', function() {
       });
     });
 
+    it('throws an error when first not provided', function(done){
+      new User({
+        last: user.last,
+        password: user.password,
+        email: user.email
+      }).save(function(err){
+        should.exist(err);
+        done();
+      })
+    });
+
     it('throws an error when last not provided', function(done){
       new User({
         first: user.first,
@@ -69,6 +80,17 @@ describe('User Schema Unit Tests', function() {
         first: user.first,
         last: user.last,
         email: user.email
+      }).save(function(err){
+        should.exist(err);
+        done();
+      })
+    });
+
+    it('throws an error when email not provided', function(done){
+      new User({
+        first: user.first,
+        last: user.last,
+        password: user.password
       }).save(function(err){
         should.exist(err);
         done();
