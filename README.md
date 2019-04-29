@@ -1,5 +1,5 @@
 # Petree's Prints
-The goal of this project was to create a client's web application for her business focusing in large format photography printing. Our team was paired with this client through the University of Florida's Software Engineering class. 
+The goal of this project was to develop a web application for a client whose business focuses on large format photography printing. Our team was paired with this client through the University of Florida's Software Engineering class. 
 <br><br>
 The customer creates an account and can purchase prints on the order page. They would upload an image, and then select a size and a medium. The client has access to an admin dashboard to update/manage these placed orders. 
 
@@ -69,11 +69,11 @@ Refer to the links.txt file for some helpful tutorials.
 ## Built With
 
 * [JavaScript](https://www.javascript.com) - Programming Language
-* [Node.js](https://nodejs.org/en/) - Runtime Environment
+* [npm](https://www.npmjs.com) - Package Manager
+* [MongoDB](https://www.mongodb.com) - Database
 * [Express.js](https://expressjs.com) - Web Framework
 * [AngularJS](https://angularjs.org) - Web Framework
-* [MongoDB](https://www.mongodb.com) - Database
-* [npm](https://www.npmjs.com) - Package Manager
+* [Node.js](https://nodejs.org/en/) - Runtime Environment
 * [Sublime Text](https://www.sublimetext.com/) - Text Editor
 * [BootstrapCDN](https://www.bootstrapcdn.com/) - CSS Framework
 
