@@ -24,7 +24,7 @@
             <li class="push"> <button ng-click="signout()" style="width:auto;">Sign Out</button></li> 
         </ul>
       </nav>
-    <!-- End of Navigation Bar -->
+<!-- End of Navigation Bar -->
 
 <div ng-controller="UsersController" ng-init="showUser()"></div>
 <div ng-controller="OrdersController">
@@ -85,7 +85,6 @@
                     <br><br>
                     <input type="radio" name="size" value="44x44" ng-model="newOrder.size"> 44x44 
                     <br>
-
                 </section>
                 <footer>
                     <p>Custom: width x height (inches)</p>
@@ -107,14 +106,6 @@
                     <div class="popup" onclick="myPopup()">How large can I print my photo?
                       <span class="popuptext" id="myPopup">To receive the best quality print, divide pixel dimensions by 300dpi. For example a 6000 x 4200 pixel image can be printed up to 20 x 14 inches.</span>
                     </div>
-
-                    <script>
-                        // When the user clicks on <div>, open the popup
-                        function myPopup() {
-                          var popup = document.getElementById("myPopup");
-                          popup.classList.toggle("show");
-                      }
-                    </script> 
                 </footer>
             </form>  
 
@@ -157,7 +148,6 @@
                     <option value="Canvas Matte">Canvas Matte</option>
                     </optgroup>
                 </select>
-
            </form>
             <a href="#" id="backsize" class="previous round">&laquo; </a>
             <a href="#" id="showreview" class="next round" ng-click=reviewOrder(newOrder)> &raquo;</a> 
@@ -190,8 +180,7 @@
             </section>
             <footer>
                 <br><br>
-                <h3>Total Price: ${{detailedInfo.totalPrice}} </h3>
-                
+                <h3>Total Price: ${{detailedInfo.totalPrice}} </h3>   
                 <br>
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                     <!-- Identify your business so that you can collect the payments. -->
@@ -216,38 +205,13 @@
 
     </div>
 </div>
-
-
         <div class="clr-fix"></div>
     </div>
     <br><br>
 
-
 </div>
 
-<!--Preview Image-->
-<script>
-    var outImage="userImage";
-    function preview_2(obj)
-    {
-        if (FileReader)
-        {
-          var reader = new FileReader();
-          reader.readAsDataURL(obj.files[0]);
-          reader.onload = function (e) {
-             var image=new Image();
-             image.src=e.target.result;
-             image.onload = function () {
-              document.getElementById(outImage).src=image.src;
-          };
-      }
-  }
-  else{}
-    }
-</script>
-
 <script src="js/order_steps.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 <script src="https://code.angularjs.org/1.4.3/angular.js"></script>
 <script src="js/app.js"></script>
 <script src="js/factories/listingFactory.js"></script>

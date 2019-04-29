@@ -6,25 +6,20 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <!-- Nav Bar Font -->
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Staatliches" rel="stylesheet">
-  
   <!-- Font for user details -->
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Oswald|Satisfy|Unica+One" rel="stylesheet">
-
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <!-- Custom CSS for layout -->
   <link rel="stylesheet" href="./styles/account_page.css">
-
-  <!-- Bootstrap CSS -->
+  <!-- Bootstrap CSS for layout-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles/table.css">
   <link rel="stylesheet" href="./styles/navbar.css">
   <title>Account</title>
 </head>
 <body ng-app="printsApp">
-
 <!-- NAV BAR -->
 <nav class="zone" ng-controller="UsersController">
   <ul class = "background"></ul>
@@ -36,7 +31,6 @@
   </ul>
 </nav>
 <!-- NAV BAR -->
-
 <div class="section-2">
 <div ng-controller="UsersController" ng-init="showUser()">
   <br><br><br><br>
@@ -51,7 +45,6 @@
         </div>
         <br><br>
         <input type="image" src="images/edit.png" width=75px align = "right" name="saveForm" class="btTxt submit" id="saveForm" onclick="document.getElementById('id02').style.display='block'"/>      
-          <!--<button ng-click=showUser()>Click</button>-->
         <h2 align = "left">{{thisuser.email}}</h2>
         <h2 align = "left">{{thisuser.address.street}}</h2>
         <h2 align = "left">{{thisuser.address.city}}, {{thisuser.address.state}} {{thisuser.address.zip}}</h2>
@@ -65,12 +58,10 @@
 <div ng-controller="OrdersController" ng-init=findOrders() class="userorders">
   <aside>
       <br>
-      <!--<br><br><br>-->
       <h2 align = "left">Order History</h2>   
       <div id="searchBar">
         <input type="text" class="searchbar form-control" placeholder="Search" ng-model="query">
-      </div>
-      
+      </div>   
       <br>
       <div class="tableWrapper">
         <table class="orderTable">
@@ -86,9 +77,6 @@
           <tfoot>
             <tr>
               <td colspan="5">
-                  <!--
-                  <div class="links"><a href="#">&laquo;</a>  <a href="#">&raquo;</a></div>
-                -->
               </td>
             </tr>
           </tfoot>
@@ -105,7 +93,6 @@
       </div>
   </aside>
 </div>
-
 </div>
 
 <div id="id02" class="edituser" ng-controller="UsersController" ng-init="showUser()">
@@ -150,16 +137,13 @@
   </div>
 </div>
 
-
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
 <script src="https://code.angularjs.org/1.4.3/angular.js"></script>
 <script src="js/app.js"></script>
 <script src="js/factories/listingFactory.js"></script>
 <script src="js/controllers/listingController.js"></script>
 <script src="js/factories/orderFactory.js"></script>
 <script src="js/controllers/orderController.js"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </body>
 </html>

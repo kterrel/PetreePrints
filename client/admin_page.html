@@ -4,47 +4,34 @@
   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   <!-- Bootstrap CSS - Helps with layout -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
   <!-- Nav Bar Font -->
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Staatliches" rel="stylesheet">
-
   <!-- Custom CSS for layout -->
   <link rel="stylesheet" href="./styles/admin.css">
   <!-- Font for order details -->
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Oswald|Satisfy|Unica+One" rel="stylesheet">
-
   <!-- Required meta tags - Mobile friendly? Maybe? -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <!-- Bootstrap CSS - Helps with layout, navbar -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
   <!-- Custom CSS for table and popup box -->
   <link rel="stylesheet" href="./styles/adminstyle.css">
   <link rel="stylesheet" href="./styles/table.css">
   <link rel="stylesheet" href="./styles/navbar.css">
-  <title>Administrator</title>
+  <title>Admin</title>
 </head>
 <body ng-app="printsApp">
-
 <!-- NAV BAR -->
 <nav class="zone green" ng-controller="UsersController">
   <ul class = "background"></ul>
   <ul class="main-nav">
     <li><a class="active" href="">Manage Orders</a></li>
-    <!--
-    <li><a href="">Edit Sizes</a></li>
-    <li><a href="">Edit Mediums</a></li>
-    <li><a href="/order_page.html">Order Page</a></li>
-    <li><a href="/account_page.html">Account</a></li>
-  -->
   <li class="push"> <button ng-click="signout()" style="width:auto;">Sign Out</button></li>
   </ul>
 </nav>
 <!-- NAV BAR -->
-
-<!-- Verify Logged In Status (Eventually verify admin) -->
+<!-- Verify Logged In Status (Verify admin) -->
 <div ng-controller="UsersController" ng-init="validAdmin()">
 </div>
 
@@ -96,7 +83,6 @@
       <br><br>
       <br><br>
       <br><br>
-      <!--<br><br><br><br>-->
       <div class="ordercard orderinfo">
         <div class="cardbody">
           <div class="cardhead">
@@ -104,7 +90,6 @@
           </div>
           <br>
           <input type="image" src="images/edit.png" width=75px align = "right" name="saveForm" class="btTxt submit" id="saveForm" onclick="document.getElementById('id02').style.display='block'"/>
-          <!--<button ng-click=showUser()>Click</button>-->
           <h2 align= "left">{{detailedInfo.created_at}}</h2>
           <h3 align = "left"><b>Status:</b> {{detailedInfo.status}}</h3>
           <h3 align = "left"><b>Price:</b> ${{detailedInfo.totalPrice}}</h3>
@@ -122,7 +107,6 @@
           <h3 align="left"><b>Email: </b><a href="mailto:{{detailedInfo.email}}?Subject=Petree%27s%20Prints" target="_top">{{detailedInfo.email}}</a></h3>
           <h3 align= "left"><b>Address:</b> </h3>
           <h3 align="left">{{detailedInfo.address.street}}, {{detailedInfo.address.city}}, {{detailedInfo.address.state}} {{detailedInfo.address.zip}}</h3>
-
           <br><br>
         </div>
       </div>
@@ -170,16 +154,13 @@
 <!-- Following div ends ng-controller -->
 </div>
 
-
 <!-- Bootstrap's JS requires jQuery 1.9.1 or higher -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
 <script src="https://code.angularjs.org/1.4.3/angular.js"></script>
 <script src="js/app.js"></script>
 <script src="js/factories/listingFactory.js"></script>
 <script src="js/controllers/listingController.js"></script>
 <script src="js/factories/orderFactory.js"></script>
 <script src="js/controllers/orderController.js"></script>
-
 </body>
 </html>
