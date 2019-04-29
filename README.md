@@ -1,15 +1,79 @@
-# Photo Project #
-* Project Information: Photography development. Customers upload an image, select the size of the image, then the image is printed and shipped to their door. 
+# Petree's Prints
+The goal of this project was to create a client's web application for her business focusing in large format photography printing. Our team was paired with this client through the University of Florida's Software Engineering class. 
+<br>
+The customer creates an account and can purchase prints on the order page. They would upload an image, and then select a size and a medium. The client has access to an admin dashboard to update/manage these placed orders. 
 
-## Tasks ##
-1. Create a preview method to edit the website 
-2. Create a way for users to create an account
-3. Create a way to upload an image from user computer
-4. Create a way to select an image size from 5 by 7 to 44 by 100 inches
-5. Create a contact page for issues with orders
-6. Create an About Me page that allows the creator to edit the text
-7. Take in the users' information, such as Name, E-mail, Address, and Phone Number
-8. Implement some sort of method that allows users to pay through Paypal 
+## Development Process
 
-## Help ##
-* Refer to the links.txt file for some helpful tutorials.
+This application was coded in JavaScript and utilized the MEAN stack - MongoDB, Express.js, AngularJS, Node.js. 
+<br>
+The original team repository is located at: https://github.com/lincarl1/photoproject
+<br>
+Our application is live at: https://petreeprints.herokuapp.com/
+<br>
+This repository holds my personal updates and improvements after completing UF's Software Engineering class.
+
+## Getting Started
+
+Download the source code into a folder. Proceed to the Prerequisites below to ensure the necessary installations are complete.
+Once they are complete, continue to Deployment. 
+
+### Prerequisites
+
+You should have npm installed on your machine first. I used version 6.4.1.
+<br>To check if npm is installed and to see your version, try running the following command in your terminal:
+```
+npm -v
+```
+If you need to download or update it, go to: https://www.npmjs.com/get-npm
+<br>
+Node.js is required to run your application. I used version 10.14.2.
+<br>
+To check if Node.js is installed and to see your version, run the following command in your terminal:
+```
+node -v
+```
+If you need to download or update it, go to: https://nodejs.org/en/download/
+<br>
+**Next Steps:**
+<br>
+Download Mongoose: https://mongoosejs.com
+```
+npm install mongoose
+```
+Download Express: https://expressjs.com
+```
+npm install express
+```
+Download Bcrypt: https://www.npmjs.com/package/bcrypt
+```
+npm install bcrypt
+```
+
+## Deployment
+
+Clone this repository to your local machine using:
+```
+git clone https://github.com/kterrel/PetreePrints.git
+```
+From your terminal's command line, cd into your source code's directory. You can then run the following command to deploy your web app. Go to http://localhost:8080/ to view it.
+```
+node server.js
+```
+
+**Help:**
+<br>
+Refer to the links.txt file for some helpful tutorials.
+
+## Built With
+
+* [JavaScript](https://www.javascript.com) - Programming Language
+* [Node.js](https://nodejs.org/en/) - Runtime Environment
+* [Express.js](https://expressjs.com) - Web Framework
+* [AngularJS](https://angularjs.org) - Web Framework
+* [MongoDB](https://www.mongodb.com) - Database
+* [npm](https://www.npmjs.com) - Package Manager
+* [Sublime Text](https://www.sublimetext.com/) - Text editor
+* [BootstrapCDN](https://www.bootstrapcdn.com/) - Used to load CSS
+
+
