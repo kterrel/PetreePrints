@@ -21,7 +21,9 @@ angular.module('users').controller('UsersController', ['$scope', 'Users',
       Users.create($scope.newUser).then(function(response) {
       // Binds user data to sessionStorage(remains as long as browser is open)
       sessionStorage['thisuser'] = JSON.stringify(response.data);
+      // Redirects signed up user to order page
       window.location = "order_page.html";
+      // Push new user details to the scope
       $scope.users.push({
         first: $scope.newUser.first,
         last: $scope.newUser.last,
@@ -36,8 +38,22 @@ angular.module('users').controller('UsersController', ['$scope', 'Users',
           }
     }); 
     }, function(error) {
-      
-      window.alert("Missing information or user already exists. Try again.");
+      if($scope.newUser.first ==null || $scope.newUser.last==null)
+      {
+        window.alert("First and last name are required.");
+      }
+      else if($scope.newUser.email ==null)
+      {
+        window.alert("Email is required.");
+      }
+      else if($scope.newUser.password ==null)
+      {
+        window.alert("Password is required.");
+      }
+      else
+      {
+        window.alert("Missing information or user already exists. Try again.");
+      }  
       console.log('Unable to add user: ', error);
     });
     }

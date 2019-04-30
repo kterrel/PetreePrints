@@ -15,11 +15,7 @@ section{
     text-align: center;
 }
 
-/*
-**************************************************
-  Front Page Block
-**************************************************
-*/
+/* Front Page Block */
 .section-1{
     background-image:url('../images/_index1flipped.jpg');
     /*background-position:center;*/
@@ -45,9 +41,6 @@ section{
       1px -1px 0 #000,
       -1px 1px 0 #000,
        1px 1px 0 #000;
-
-    
-    /*font-family: 'Unica One', cursive; */
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
 }
@@ -67,11 +60,7 @@ section{
   
 }
 
-/*
-**************************************************
-  Front Page Block End
-**************************************************
-*/
+/* Front Page Block End */
 
   /***********************************************************************
 *  Photo Display Block 
