@@ -1,47 +1,10 @@
-html body{
-     background-color: : #f9f9f9;
-     background-image: url("../images/_order1.jpg");
-     background-size: cover; 
-    background-position:center;
-
+/*--Contact Section --*/
+.contact {
+  background: white;
+  opacity: 0.7;
 }
 
-#searchBar {
-  margin: 15px 10px;
-}
-
-section{
-  margin-top: 87px; 
-  background-color: : #f9f9f9;
-}
-
-.module{
-    padding:150px 20px 150px 20px;
-    text-align: center;
-}
-
-.section-2{
-     
-    position: relative;
-    
-    height: 800px;
-}
-
-#map {
-        height: 316px;  /* The height is 400 pixels */
-        width: 100%;  /* The width is the width of the web page */
-
-       }
-
-
- /***********************************************************************
-      Contact
- **********************************************************************/
-
-
-
-.contact_text h2{
-  position: absolute;
+.contact h2{
   top: 11%; 
   font-size: 60px;
   font-family: 'Staatliches', cursive;
@@ -51,12 +14,11 @@ section{
   opacity: 1; 
 }
 
-.contact_text p{
+.contact p{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: black;
-    position: absolute;
-    top: 42%;
+    top: 22%;
     max-width: 95%; 
     right:0;
     left:0;
@@ -64,24 +26,3 @@ section{
     line-height: 1.8; 
 }
 
-.contact_us_block{
-  height: 350px; 
-  width: 900px; 
-  background-color: white;
-  opacity: 0.95;
-  position: absolute;
-  margin: auto; 
-  right:0;
-  left:0;
-  top:-125px; 
-  bottom:0;
-}
-
-.tableWrapper {
-  max-height: 400px;
-  overflow: auto;
-  background-color: rgb(235, 221, 98);
-}
-.container {
-  padding: 16px;
-}

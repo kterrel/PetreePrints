@@ -223,7 +223,7 @@ text-shadow:
 **********************************************************************/
 
 .section-2{
-     background-image:url('../images/office2.jpg');
+    background-image:url('../images/_about1.jpg');
     background-position:center;
     position: relative;
     background-size: cover; 
@@ -264,8 +264,9 @@ text-shadow:
 .about_me_block{
   height: 480px; 
   width: 550px; 
-  background-color: white; 
-  opacity: 0.85; 
+  background-color: white;
+  opacity: 0.90; 
+  /*opacity: 0.85;*/ 
   position: absolute;
   margin: auto; 
   right:0;
@@ -274,102 +275,12 @@ text-shadow:
   bottom:0;
 }
 
+
 /***********************************************************************
 *  About Us - end 
 **********************************************************************/
-/***********************************************************************
-*  Gallery Block 
-**********************************************************************/
-
-.section-7{
-    position: relative;
-    height: 700px;
-    /*background-position:center;*/
-    background-size: cover; 
-}
-
-.gallery_block h2{
-  position: absolute;
-  top: 4%;
-  font-size: 60px;
-  font-family: 'Staatliches', cursive;
-  letter-spacing: 4px;
-  color: black;
-  /*width: 100%; */
-  width: 97%;
-  opacity: 1;
-  color: black;
-
-}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  /*border: 10px solid black;*/
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-.mySlides img {
-  width:60%;
-  border: 20px solid black;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  user-select: none;
-  color: white;
-  background-color: black;
-}
-
-/* Position next & prev to right & left */
-.next {
-  right: 150px;
-}
-.prev {
-  left: 150px;
-}
-
-
-.prev:hover, .next:hover {
-  background-color: grey;
-  color: white;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
 
 /***********************************************************************
-      Gallery  - end 
- **********************************************************************/
- /***********************************************************************
       Contact 
  **********************************************************************/
 
@@ -436,6 +347,9 @@ text-shadow:
 }
 
 input[type=text], input[type=password] {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-family: 'Roboto', sans-serif;
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -477,16 +391,16 @@ span.psw {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0,0,0);  
+  background-color: rgba(0,0,0,0.4); 
   padding-top: 60px;
 }
 
 /* Login Popup Content/Box */
 .login-content {
-  background-color: #fefefe;
+  /*background-color: #fefefe;*/
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
+  /*border: 1px solid #888;*/
   width: 500px;
   /*width: 80%; *//* Could be more or less, depending on screen size */
 }
@@ -527,8 +441,6 @@ span.psw {
 
 
 
-
-
 /* Sign Up (background) */
 .signup {
   display: none; /* Hidden by default */
@@ -546,9 +458,9 @@ span.psw {
 
 /* Sign Up Content/Box */
 .signup-content {
-  background-color: #fefefe;
+  /*background-color: #fefefe;*/
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
+  /*border: 1px solid #888;*/
   /*width: 80%; *//* Could be more or less, depending on screen size */
   width: 500px;
 }

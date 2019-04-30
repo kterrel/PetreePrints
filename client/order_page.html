@@ -10,6 +10,7 @@
     <!--JQuery Script-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="styles/order.css">
+    <link rel="stylesheet" href="./styles/contact.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <title>Order</title>
 </head>
@@ -20,7 +21,7 @@
         <ul class="main-nav">
             <li><a class=active href="">Order</a></li>
             <li><a href="/account_page.html">Account</a></li>
-            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li class="push"> <button ng-click="signout()" style="width:auto;">Sign Out</button></li> 
         </ul>
       </nav>
@@ -206,10 +207,22 @@
     </div>
 </div>
         <div class="clr-fix"></div>
-    </div>
+</div>
     <br><br>
 
 </div>
+<footer class="contact" id="contact">
+    <center>
+        <br>
+        <h2>Contact Us</h2>
+        <p> 
+            Questions? Feel free to contact us!
+            <br><a href="mailto:petreeprint@gmail.com"><b>petreeprinting@gmail.com</b></a>
+            <br> (352) 316-0879
+              </p>
+              <br>
+    </center> 
+</footer>
 
 <script src="js/order_steps.js"></script>
 <script src="https://code.angularjs.org/1.4.3/angular.js"></script>

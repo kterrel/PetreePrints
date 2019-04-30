@@ -1,8 +1,4 @@
-
- /***********************************************************************
-     Verification block
- **********************************************************************/
- html body{
+html body{
     background-image:url('../images/_order.jpg'); 
     background-size: cover; 
 }
@@ -41,4 +37,10 @@ section{
 
 .section-2 a:hover{
   color: white; 
+}
+
+footer {
+  margin: 0 1.5% 24px 1.5%;
+  clear: both;
+  margin-bottom: 0;
 }
